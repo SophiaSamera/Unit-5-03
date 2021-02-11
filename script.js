@@ -1,3 +1,5 @@
+document.getElementById('button').addEventListener('click', buttonOn)
+
 function buttonOn () {
   document.getElementById('paragraph').innerHTML = 'Poof!'
   document.getElementById('pets').src = './Images/doggi.png'
